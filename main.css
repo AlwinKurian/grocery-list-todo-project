@@ -126,6 +126,8 @@ body{
 .displayItems-clear{
     background: #4d7ea8;
     color:#272932;
+    outline:none;
+    background: transparent;
 }
 /*Add utility action classes */
 .alert{
@@ -136,8 +138,8 @@ body{
 }
 
 .success{
-    color: green;
-    border-color: green;
+    color:rgb(32, 184, 32);
+    border-color: rgb(32, 184, 32);
     display: block;
     margin-bottom: 0.5rem;
 }
